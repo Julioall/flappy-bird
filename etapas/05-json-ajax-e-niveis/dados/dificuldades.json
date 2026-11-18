@@ -1,0 +1,14 @@
+{
+  "facil": {
+    "velocidadeCanos": 2,
+    "espacoCanos": 180
+  },
+  "normal": {
+    "velocidadeCanos": 3,
+    "espacoCanos": 150
+  },
+  "dificil": {
+    "velocidadeCanos": 4,
+    "espacoCanos": 120
+  }
+}

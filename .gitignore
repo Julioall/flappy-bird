@@ -1,0 +1,9 @@
+# Recursos externos: não versionar sem autorização clara de redistribuição
+assets/imagens/
+assets/sons/
+
+# Arquivos e ferramentas locais
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/

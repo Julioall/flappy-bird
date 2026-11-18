@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Bird JS Challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="aplicacao">
+    <header>
+      <h1>Flappy Bird JS Challenge</h1>
+      <p>Aprendendo JavaScript com um jogo construído em etapas.</p>
+    </header>
+    <section class="area-jogo" aria-label="Área do jogo">
+      <canvas id="jogo" width="288" height="512" aria-label="Jogo Flappy Bird"></canvas>
+      <div id="painel" class="painel" aria-live="polite"></div>
+    </section>
+    <section id="acoes" class="acoes" aria-label="Controles do jogo"></section>
+    <p id="mensagem" class="mensagem" role="status"></p>
+    <footer>Teclado: Espaço para voar. Clique ou toque no jogo também funciona a partir da etapa 2.</footer>
+  </main>
+</body>
+</html>
